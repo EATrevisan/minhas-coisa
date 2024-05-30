@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+    background-color: #F5DCE8; /* Um tom de rosa bem leve */
+}
+button {
+   padding: 10px 20px;
+   background-color: #f5dce8;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+
+  

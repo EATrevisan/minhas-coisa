@@ -1,0 +1,432 @@
+/* Estilização do h1 para algo fofinho */
+h1 {
+    font-family: "Arial", sans-serif; /* Fonte */
+    font-size: 36px; /* Tamanho da fonte */
+    color: #FF69B4; /* Cor do texto (rosa) */
+    text-align: center; /* Centralizar o texto */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #FFF0F5; /* Cor de fundo (rosa claro) */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+h1:hover {
+    background-color: #FFC0CB; /* Mudança de cor de fundo ao passar o mouse (rosa mais claro) */
+    color: #FF1493; /* Mudança de cor de texto ao passar o mouse (rosa mais escuro) */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra suave aumentada ao passar o mouse */
+}
+.msg.manu {
+    background-color: #add8e6; /* Azul claro */
+    color: #d35400; /* Cor do texto vibrante */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte divertida e descontraída */
+    font-size: 1.2em; /* Tamanho do texto um pouco maior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+    text-align: center; /* Centralizar o texto */
+    max-width: 500px; /* Limitar a largura máxima da mensagem */
+    margin: 20px auto; /* Centralizar a mensagem na página com margens automáticas */
+    border: 2px solid #d35400; /* Adicionar uma borda colorida */
+}
+
+.msg.manu .emoji {
+    font-size: 1.5em; /* Tamanho maior para os emojis */
+    margin-right: 5px; /* Espaço à direita dos emojis */
+}
+.msg.marina {
+    background-color: #f0f8ff; /* Azul claro */
+    color: #2c3e50; /* Cor do texto escuro para bom contraste */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    font-family: 'Arial', sans-serif; /* Fonte limpa e legível */
+    font-size: 1.2em; /* Tamanho do texto um pouco maior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    text-align: center; /* Centralizar o texto */
+    max-width: 600px; /* Limitar a largura máxima da mensagem */
+    margin: 20px auto; /* Centralizar a mensagem na página com margens automáticas */
+    border: 2px solid #2c3e50; /* Adicionar uma borda colorida */
+}
+
+.msg.marina .emoji {
+    font-size: 1.5em; /* Tamanho maior para os emojis */
+    margin-left: 5px; /* Espaço à esquerda dos emojis */
+}
+
+
+/* Estilização do botão isolado para deixá-lo aconchegante */
+button {
+    font-family: "Arial", sans-serif; /* Fonte */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #FFFFFF; /* Cor do texto */
+    background-color: #FF69B4; /* Cor de fundo */
+    border: none; /* Remove a borda */
+    border-radius: 20px; /* Cantos arredondados */
+    padding: 10px 20px; /* Espaçamento interno */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    cursor: pointer; /* Cursor de apontar */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+button:hover {
+    background-color: #FF1493; /* Mudança de cor de fundo ao passar o mouse */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra suave aumentada ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+/* Estilização do conteúdo dentro do parágrafo fofo */
+.fofo {
+    font-family: 'Arial', sans-serif; /* Fonte */
+    font-size: 18px; /* Tamanho da fonte */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 10px; /* Cantos arredondados */
+    background-color: #f5dce8; /* Cor de fundo */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px; /* Margem externa */
+    color: #ae4c94; /* Cor do texto */
+}
+body {
+    background-color: lightblue; /* Light blue */
+}
+.garotinha {
+    font-family: "Arial", sans-serif; /* Fonte */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #FF69B4; /* Cor do texto (rosa) */
+    background-color: #FFF0F5; /* Cor de fundo (rosa claro) */
+    border: 1px solid #FF69B4; /* Borda rosa */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 15px; /* Espaçamento interno */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+.garotinha:hover {
+    background-color: #FFC0CB; /* Mudança de cor de fundo ao passar o mouse */
+    color: #FF1493; /* Mudança de cor de texto ao passar o mouse */
+    border-color: #FF1493; /* Mudança de cor da borda ao passar o mouse */
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+
+.garotinha p {
+    font-family: "Comic Sans MS", cursive; /* Fonte para o texto dentro do elemento p */
+    font-size: 14px; /* Tamanho da fonte */
+    color: #FF69B4; /* Cor do texto (rosa) */
+    margin: 0; /* Remover margens padrão */
+    padding: 5px; /* Espaçamento interno */
+}
+
+.garotinha::before {
+    content: ""; /* Adiciona um pseudo-elemento */
+    position: absolute; /* Posicionamento absoluto */
+    top: 0; /* Alinha ao topo */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    background-color: #FFF0F5; /* Cor de fundo (mesmo tema) */
+    border-radius: 10px; /* Cantos arredondados */
+    z-index: -1; /* Coloca atrás do elemento .garotinha */
+}
+/* Estilização da classe "nojento" */
+.nojento {
+    font-family: "Comic Sans MS", cursive; /* Fonte */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #6A5ACD; /* Cor do texto (roxo) */
+    background-color: #FFFF99; /* Cor de fundo (amarelo claro) */
+    border: 2px solid #8B0000; /* Borda (vermelho escuro) */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 15px; /* Espaçamento interno */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    transition: all 0.3s ease; /* Transição suave */
+}
+/* Estilização da classe "nojento" com pegada mais verde */
+.nojento {
+    font-family: "Arial", sans-serif; /* Fonte */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #FFFFFF; /* Cor do texto (branco) */
+    background-color: #7FFF00; /* Cor de fundo (verde chartreuse) */
+    border: 2px solid #228B22; /* Borda (verde floresta) */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 15px; /* Espaçamento interno */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+.nojento:hover {
+    background-color: #32CD32; /* Mudança de cor de fundo ao passar o mouse (verde lime) */
+    border-color: #006400; /* Mudança de cor da borda ao passar o mouse (verde escuro) */
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+.msg.julia {
+    background-color: #fdf3e6; /* Cor de fundo pêssego suave */
+    color: #333333; /* Cor do texto escuro para contraste */
+    padding: 25px; /* Espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas */
+    font-family: 'Georgia', serif; /* Fonte elegante */
+    font-size: 1.2em; /* Tamanho do texto */
+    line-height: 1.6; /* Altura da linha para melhor leitura */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centralizar o texto */
+    max-width: 600px; /* Limitar a largura máxima da mensagem */
+    margin: 30px auto; /* Centralizar a mensagem na página */
+    border: 3px solid #ffa07a; /* Adicionar uma borda */
+}
+
+.msg.julia .highlight {
+    color: #ff4500; /* Cor de destaque para palavras importantes */
+    font-weight: bold; /* Negrito para destaque */
+}
+
+.msg.julia .signature {
+    display: block; /* Exibir assinatura em uma nova linha */
+    margin-top: 20px; /* Espaçamento acima da assinatura */
+    font-size: 1em; /* Tamanho da assinatura */
+    font-style: italic; /* Estilo itálico */
+    color: #555555; /* Cor mais clara para a assinatura */
+}
+
+.msg.julia .emoji {
+    font-size: 1.5em; /* Tamanho maior para os emojis */
+    margin: 0 5px; /* Espaçamento ao redor dos emojis */
+    vertical-align: middle; /* Alinhar emojis ao meio do texto */
+}
+.msg.xurma {
+    background-color: #e6f7ff; /* Cor de fundo azul claro */
+    color: #003366; /* Cor do texto azul escuro */
+    padding: 25px; /* Espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas */
+    font-family: 'Verdana', sans-serif; /* Fonte limpa e legível */
+    font-size: 1.2em; /* Tamanho do texto */
+    line-height: 1.6; /* Altura da linha para melhor leitura */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centralizar o texto */
+    max-width: 600px; /* Limitar a largura máxima da mensagem */
+    margin: 30px auto; /* Centralizar a mensagem na página */
+    border: 3px solid #66ccff; /* Adicionar uma borda azul */
+}
+
+.msg.xurma .highlight {
+    color: #ff6600; /* Cor de destaque para palavras importantes */
+    font-weight: bold; /* Negrito para destaque */
+}
+
+.msg.xurma .signature {
+    display: block; /* Exibir assinatura em uma nova linha */
+    margin-top: 20px; /* Espaçamento acima da assinatura */
+    font-size: 1em; /* Tamanho da assinatura */
+    font-style: italic; /* Estilo itálico */
+    color: #666666; /* Cor mais clara para a assinatura */
+}
+
+.msg.xurma .emoji {
+    font-size: 1.5em; /* Tamanho maior para os emojis */
+    margin: 0 5px; /* Espaçamento ao redor dos emojis */
+    vertical-align: middle; /* Alinhar emojis ao meio do texto */
+}
+.msg.yas {
+    background-color: #ffe6f2; /* Cor de fundo rosa claro */
+    color: #5a189a; /* Cor do texto roxo escuro */
+    padding: 25px; /* Espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas */
+    font-family: 'Verdana', sans-serif; /* Fonte limpa e legível */
+    font-size: 1.2em; /* Tamanho do texto */
+    line-height: 1.6; /* Altura da linha para melhor leitura */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centralizar o texto */
+    max-width: 600px; /* Limitar a largura máxima da mensagem */
+    margin: 30px auto; /* Centralizar a mensagem na página */
+    border: 3px solid #ff66b2; /* Adicionar uma borda rosa */
+}
+
+.msg.yas .highlight {
+    color: #d6336c; /* Cor de destaque para palavras importantes */
+    font-weight: bold; /* Negrito para destaque */
+}
+
+.msg.yas .signature {
+    display: block; /* Exibir assinatura em uma nova linha */
+    margin-top: 20px; /* Espaçamento acima da assinatura */
+    font-size: 1em; /* Tamanho da assinatura */
+    font-style: italic; /* Estilo itálico */
+    color: #5a189a; /* Cor mais clara para a assinatura */
+}
+
+.msg.yas .emoji {
+    font-size: 1.5em; /* Tamanho maior para os emojis */
+    margin: 0 5px; /* Espaçamento ao redor dos emojis */
+    vertical-align: middle; /* Alinhar emojis ao meio do texto */
+}
+.msg.rafa {
+    background-color: #fff0f5; /* Cor de fundo lavanda */
+    color: #8b0000; /* Cor do texto vermelho escuro */
+    padding: 25px; /* Espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas */
+    font-family: 'Tahoma', sans-serif; /* Fonte legível e moderna */
+    font-size: 1.2em; /* Tamanho do texto */
+    line-height: 1.6; /* Altura da linha para melhor leitura */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centralizar o texto */
+    max-width: 600px; /* Limitar a largura máxima da mensagem */
+    margin: 30px auto; /* Centralizar a mensagem na página */
+    border: 3px solid #ff69b4; /* Adicionar uma borda rosa choque */
+}
+
+.msg.rafa .highlight {
+    color: #ff4500; /* Cor de destaque para palavras importantes */
+    font-weight: bold; /* Negrito para destaque */
+}
+
+.msg.rafa .signature {
+    display: block; /* Exibir assinatura em uma nova linha */
+    margin-top: 20px; /* Espaçamento acima da assinatura */
+    font-size: 1em; /* Tamanho da assinatura */
+    font-style: italic; /* Estilo itálico */
+    color: #8b0000; /* Cor mais clara para a assinatura */
+}
+
+.msg.rafa .emoji {
+    font-size: 1.5em; /* Tamanho maior para os emojis */
+    margin: 0 5px; /* Espaçamento ao redor dos emojis */
+    vertical-align: middle; /* Alinhar emojis ao meio do texto */
+}
+.msg.codato {
+    background-color: #f0fff0; /* Cor de fundo verde claro */
+    color: #006400; /* Cor do texto verde escuro */
+    padding: 25px; /* Espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas */
+    font-family: 'Arial', sans-serif; /* Fonte limpa e legível */
+    font-size: 1.2em; /* Tamanho do texto */
+    line-height: 1.6; /* Altura da linha para melhor leitura */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centralizar o texto */
+    max-width: 600px; /* Limitar a largura máxima da mensagem */
+    margin: 30px auto; /* Centralizar a mensagem na página */
+    border: 3px solid #32cd32; /* Adicionar uma borda verde limão */
+}
+
+.msg.codato .highlight {
+    color: #ff4500; /* Cor de destaque para palavras importantes */
+    font-weight: bold; /* Negrito para destaque */
+}
+
+.msg.codato .signature {
+    display: block; /* Exibir assinatura em uma nova linha */
+    margin-top: 20px; /* Espaçamento acima da assinatura */
+    font-size: 1em; /* Tamanho da assinatura */
+    font-style: italic; /* Estilo itálico */
+    color: #006400; /* Cor mais clara para a assinatura */
+}
+
+.msg.codato .emoji {
+    font-size: 1.5em; /* Tamanho maior para os emojis */
+    margin: 0 5px; /* Espaçamento ao redor dos emojis */
+    vertical-align: middle; /* Alinhar emojis ao meio do texto */
+}
+.msg.pietra {
+    background-color: #e0f7fa; /* Cor de fundo azul claro */
+    color: #006064; /* Cor do texto azul escuro */
+    padding: 25px; /* Espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas */
+    font-family: 'Georgia', serif; /* Fonte elegante e legível */
+    font-size: 1.2em; /* Tamanho do texto */
+    line-height: 1.6; /* Altura da linha para melhor leitura */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centralizar o texto */
+    max-width: 600px; /* Limitar a largura máxima da mensagem */
+    margin: 30px auto; /* Centralizar a mensagem na página */
+    border: 3px solid #00acc1; /* Adicionar uma borda azul turquesa */
+}
+
+.msg.pietra .highlight {
+    color: #d32f2f; /* Cor de destaque para palavras importantes */
+    font-weight: bold; /* Negrito para destaque */
+}
+
+.msg.pietra .signature {
+    display: block; /* Exibir assinatura em uma nova linha */
+    margin-top: 20px; /* Espaçamento acima da assinatura */
+    font-size: 1em; /* Tamanho da assinatura */
+    font-style: italic; /* Estilo itálico */
+    color: #006064; /* Cor mais clara para a assinatura */
+}
+
+.msg.pietra .emoji {
+    font-size: 1.5em; /* Tamanho maior para os emojis */
+    margin: 0 5px; /* Espaçamento ao redor dos emojis */
+    vertical-align: middle; /* Alinhar emojis ao meio do texto */
+}
+.msg.enzo {
+    background-color: #fef3c7; /* Cor de fundo amarelo suave */
+    color: #4a4a4a; /* Cor do texto cinza escuro */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-family: 'Georgia', serif; /* Fonte elegante e legível */
+    font-size: 1.2em; /* Tamanho do texto */
+    line-height: 1.8; /* Altura da linha para melhor leitura */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: left; /* Alinhar o texto à esquerda */
+    max-width: 650px; /* Limitar a largura máxima da mensagem */
+    margin: 40px auto; /* Centralizar a mensagem na página */
+    border: 2px solid #f59e0b; /* Adicionar uma borda amarela dourada */
+}
+
+.msg.enzo .highlight {
+    color: #d97706; /* Cor de destaque para palavras importantes */
+    font-weight: bold; /* Negrito para destaque */
+}
+
+.msg.enzo .signature {
+    display: block; /* Exibir assinatura em uma nova linha */
+    margin-top: 20px; /* Espaçamento acima da assinatura */
+    font-size: 1em; /* Tamanho da assinatura */
+    font-style: italic; /* Estilo itálico */
+    color: #4a4a4a; /* Cor mais clara para a assinatura */
+    text-align: right; /* Alinhar assinatura à direita */
+}
+
+.msg.enzo .emoji {
+    font-size: 1.5em; /* Tamanho maior para os emojis */
+    margin: 0 5px; /* Espaçamento ao redor dos emojis */
+    vertical-align: middle; /* Alinhar emojis ao meio do texto */
+}
+
+.msg.enzo .intro {
+    font-style: italic; /* Texto introdutório em itálico */
+    margin-bottom: 20px; /* Espaçamento abaixo do texto introdutório */
+}
+
+.msg.enzo .emphasis {
+    font-weight: bold; /* Negrito para ênfase */
+    color: #9c4221; /* Cor de ênfase */
+}
+
+.msg.enzo .note {
+    margin-top: 30px; /* Espaçamento acima da nota final */
+    font-size: 0.9em; /* Tamanho menor para a nota final */
+    color: #6b7280; /* Cor cinza para a nota final */
+    border-top: 1px solid #f59e0b; /* Linha superior separadora */
+    padding-top: 10px; /* Espaçamento interno acima da nota */
+}
+.msg.parça {
+    background-color: #fdebd0; /* Cor de fundo rosa suave */
+    color: #4a4a4a; /* Cor do texto cinza escuro */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    font-family: 'Segoe Script', cursive, sans-serif; /* Fonte mais fofa */
+    font-size: 16px; /* Tamanho do texto */
+    line-height: 1.6; /* Altura da linha */
+    max-width: 600px; /* Largura máxima da mensagem */
+    margin: 20px auto; /* Centralizar a mensagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.msg.parça p {
+    margin-bottom: 15px; /* Espaçamento abaixo de cada parágrafo */
+}
+
+.msg.parça em {
+    font-style: normal; /* Remover itálico */
+    font-weight: bold; /* Negrito */
+    color: #ff6b6b; /* Cor vermelha para destaque */
+}
+
